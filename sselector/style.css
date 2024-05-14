@@ -1,0 +1,17 @@
+ol li ul li {
+  color: white;
+  background-color: blue;
+}
+
+div ul .new {
+  color: gold;
+}
+
+h2.score {
+  color: darkblue;
+}
+
+#cast,
+#reviews {
+  color: darkblue;
+}

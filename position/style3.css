@@ -1,0 +1,29 @@
+body {
+  background-image: radial-gradient(#1cb5e0, #000046);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 15px 30px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.badg {
+  border: 2px solid white;
+  background-color: rgba(9, 200, 9);
+  color: white;
+  position: absolute;
+  top: -16px;
+  right: -10px;
+  border-radius: 50px;
+  padding: 4px 9px;
+}

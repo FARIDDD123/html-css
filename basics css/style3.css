@@ -1,0 +1,56 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* @counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
+}
+
+ul {
+  list-style: thumbs;
+} */
+
+p {
+  font: italic small-caps bold 16px/2 cursive;
+}
+
+#reviews {
+  text-decoration: underline gold;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+
+.tag {
+  background-color: black;
+  color: white;
+}
+
+#cast {
+  list-style-type: "\1F44D";
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.tag:hover {
+  color: blue;
+  text-decoration: line-through;
+  background-color: aliceblue;
+  cursor: not-allowed;
+}

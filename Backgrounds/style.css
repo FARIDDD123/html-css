@@ -1,0 +1,20 @@
+.box {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  /* background-image: linear-gradient(); */
+  /* background-image: radial-gradient(#fc00ff 8%, #00dbde, #512da8); */
+  /* background-image: conic-gradient(#fc00ff, #00dbde, #512da8, #403a3e, #fc00ff); */
+  background-image: repeating-linear-gradient(
+    #403a3e,
+    #fc00ff 20px,
+    #808080 25px,
+    #ffd89b 25px 6%
+  );
+}
+
+img {
+  width: 500px;
+  /* filter: drop-shadow(26px 26px 26px black); */
+  filter: hue-rotate(140deg);
+}

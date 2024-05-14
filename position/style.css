@@ -1,0 +1,15 @@
+.box {
+  background-color: darkblue;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.box span {
+  color: white;
+  background-color: cadetblue;
+  font-size: 1rem;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}

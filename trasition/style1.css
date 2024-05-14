@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 73%
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  color: darkblue;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 2rem;
+  padding: 2rem 7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.6s, color 0.5s, transform 0.4s;
+}
+
+.first {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.first:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+  background-color: darkblue;
+  color: white;
+}
+
+.second {
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
+
+.second:hover {
+  transform: scale(0.95);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.16);
+  background-color: darkblue;
+  color: white;
+}

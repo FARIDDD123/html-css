@@ -1,0 +1,18 @@
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: aqua;
+}
+
+/* .first {
+  background-color: darkblue;
+  transform: rotate(45deg);
+} */
+
+h1 {
+  border: 2px solid black;
+  display: inline-block;
+  text-align: center;
+  transform: rotatex(90deg);
+}
