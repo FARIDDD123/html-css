@@ -1,18 +1,19 @@
 .box {
+  background-color: cadetblue;
   width: 200px;
   height: 200px;
   display: inline-block;
-  background-color: aqua;
 }
 
-/* .first {
+.first {
   background-color: darkblue;
-  transform: rotate(45deg);
-} */
+  /* transform: translate(12px, 50%); */
+  transform: rotate(40deg) scale(-2);
+}
 
 h1 {
   border: 2px solid black;
+  /* transform: rotate(90deg); */
+  /* transform: translate(30px 30px); */
   display: inline-block;
-  text-align: center;
-  transform: rotatex(90deg);
 }
